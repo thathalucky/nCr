@@ -5,7 +5,8 @@
 
 int power ( int a ,int b );
 int power (int a ,int b ){
-    
+  
+ 
  if (b==1){
      return a*b ;
    }
@@ -26,7 +27,7 @@ scanf("%d" , &a);
 int  b ;
 printf("Enter the number b  : " );
 scanf("%d" , &b);
-
+if (b== 0 ) printf("1\n");
 int power11 = power(a,b);
 printf("%d",power11);
 
