@@ -60,7 +60,7 @@ scanf("%f",&(a->chemistry));
 return 0 ;
 }
 int PrintInfo(Marks *a){
-printf("Performance of Student : \n");
+printf("Performance of Student :%s\n",a->name);
 printf("Marks of Mathematics : %f \n",a->maths);
 printf("Marks of Physics : %f \n",a->physics);
 printf("Marks of Chemistry : %f \n",a->chemistry);
